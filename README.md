@@ -1,4 +1,4 @@
-### **Visão geral do projeto**
+### **Porjeto React next.js DevMedia missão 26 - BARBEARIA**
 
 A proposta desse projeto é criar uma landing page que possua um botão para alterar o tema de claro para escuro. Isso será feito utilizando o React JS.
 
