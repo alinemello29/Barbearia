@@ -1,0 +1,98 @@
+.landpage_container header{
+  width: 100%;
+  height: 10vh;
+  padding-inline: 10px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.header .logo{
+  max-width: 100px;
+}
+
+.header button{
+  /* width: 90px; */
+  border-radius: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  border: 1px solid #b2987d;
+  font-weight: 600;
+  padding: 7px 10px;
+  background-color: #b2987d6c;
+  cursor: pointer;
+}
+
+.icon {
+  width: 24px;
+}
+
+.banner {
+  height: 40vh;
+  width: 100%;
+  background: linear-gradient(47deg, #000113 0%, #04061D 80%, #04061D 100%);
+  background-image: url('../../../public/banner-barbearia.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.body {
+  height: 50vh;
+  max-width: 925px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  text-align: center;
+}
+
+.body h1 {
+  font-size: 40px;
+}
+
+.body .bold{
+  font-weight: 600;
+}
+
+.fantasy{
+  font-family: "Great Vibes", fantasy;
+  color: #b2987d;
+  font-size: 48px;
+}
+
+@media(max-width: 700px) {
+  .banner {
+    height: 30vh;
+  }
+
+  .body {
+    min-height: 60vh;
+    height: auto;
+  }
+
+  .body h1 {
+    font-size: 28px;
+  }
+  
+  .body .bold{
+    font-weight: 600;
+  }
+  
+  .fantasy{
+    font-family: "Great Vibes", fantasy;
+    color: #b2987d;
+    font-size: 28px;
+  }
+}
